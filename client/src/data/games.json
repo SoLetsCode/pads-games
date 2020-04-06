@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Relay Race",
+    "description": "Puppy will go through a relay race and at each stop they will have to do one action",
+    "instruction": [
+      "Lay 3 objects out on the floor",
+      "Go to each object and ask for one position (ie. sit, stand, down)"
+    ],
+    "goal": "To have puppy respond to cue next to the handler",
+    "challenge": "Sprinkle kibble between objects."
+  },
+  {
+    "title": "Perch with Kibble",
+    "description": "Puppy will perch on an object with kibble on it",
+    "instruction": [
+      "Grab a box or small stool",
+      "Put kibble on top of object",
+      "Perch away!",
+      "*tip* if you think puppy will eat it, tape the kibble to the object"
+    ],
+    "goal": "Playful perch",
+    "challenge": "Add more kibble"
+  }
+]

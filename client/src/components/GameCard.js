@@ -17,35 +17,41 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import biscuitImg from "../assets/BiscuitDefault.jpg";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 345
+    maxWidth: 345,
   },
   media: {
     height: 0,
-    paddingTop: "56.25%" // 16:9
+    paddingTop: "56.25%", // 16:9
   },
   expand: {
     transform: "rotate(0deg)",
     margin: "0 auto 0 auto",
     transition: theme.transitions.create("transform", {
-      duration: theme.transitions.duration.shortest
-    })
+      duration: theme.transitions.duration.shortest,
+    }),
   },
   expandOpen: {
-    transform: "rotate(180deg)"
+    transform: "rotate(180deg)",
   },
   avatar: {
-    backgroundColor: red[500]
-  }
+    backgroundColor: red[500],
+  },
 }));
 
-export default function RecipeReviewCard() {
+export default function GameCard(props) {
+  const { title, description, instruction, goal, challenge } = props.game;
+  console.log(title, challenge);
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
+  };
+
+  const displaySteps = (array) => {
+    return array.map((data) => <Typography paragraph>{data}</Typography>);
   };
 
   return (
@@ -61,13 +67,12 @@ export default function RecipeReviewCard() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Relay Race"
+        title={title}
       />
       <CardMedia className={classes.media} image={biscuitImg} title="Biscuit" />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          Puppy will go through a relay race and at each stop they will have to
-          do one action.
+          {description}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -79,7 +84,7 @@ export default function RecipeReviewCard() {
         </IconButton> */}
         <IconButton
           className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded
+            [classes.expandOpen]: expanded,
           })}
           onClick={handleExpandClick}
           aria-expanded={expanded}
@@ -93,20 +98,15 @@ export default function RecipeReviewCard() {
           <Typography paragraph variant="h6">
             How to Play:
           </Typography>
-          <Typography paragraph>Lay 3 objects out on the floor</Typography>
-          <Typography paragraph>
-            Go to each object and ask for one position (ie. sit, stand, down)
-          </Typography>
+          {displaySteps(instruction)}
           <Typography paragraph variant="h6">
             Goal
           </Typography>
-          <Typography paragraph>
-            To have puppy respond to cue next to the handler.
-          </Typography>
+          <Typography paragraph>{goal}</Typography>
           <Typography paragraph variant="h6">
             Challenge Me!
           </Typography>
-          <Typography paragraph>Sprinkle kibble between objects.</Typography>
+          <Typography paragraph>{challenge}</Typography>
         </CardContent>
       </Collapse>
     </Card>

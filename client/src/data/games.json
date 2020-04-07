@@ -20,5 +20,29 @@
     ],
     "goal": "Playful perch",
     "challenge": "Add more kibble"
+  },
+  {
+    "title": "Heel and Side",
+    "description": "Stand and cue your puppy for Heel and Side",
+    "instruction": [
+      "Stand still and use only your voice",
+      "Say Heel puppy will go to your left side and sit",
+      "Say Side puppy will go to your right side and sit",
+      "Puppy should only cross in front of you",
+      "If puppy sits too far try doing this by a wall"
+    ],
+    "goal": "Puppy understands side and heel",
+    "challenge": "Say side or heel twice in a row and see what your pup does"
+  },
+  {
+    "title": "Duration Sit, Down, Stand",
+    "description": "Puppy will hold position",
+    "instruction": [
+      "Cue the puppy",
+      "...Patiently wait",
+      "say Yes before they break"
+    ],
+    "goal": "Puppy holds position",
+    "challenge": "Distract puppy as they hold the position (be creative)"
   }
 ]

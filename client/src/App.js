@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./styles/app.css";
 
@@ -14,15 +14,21 @@ import GameCard from "./components/GameCard";
 import { Grid, Button } from "@material-ui/core";
 
 function App() {
+  const [game, setGame] = useState(games[0]);
+
+  const gameClick = () => {
+    setGame(games[Math.floor(Math.random() * games.length)]);
+  };
+
   return (
     <div className="App">
       <Appbar />
       <Grid container justify="center">
         <Grid item>
-          <GameCard game={games[1]} />
+          <GameCard game={game} />
         </Grid>
         <Grid item>
-          <Button variant="contained" color="primary">
+          <Button variant="contained" color="primary" onClick={gameClick}>
             Lets Play Another Game
           </Button>
         </Grid>

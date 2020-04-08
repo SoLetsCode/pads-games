@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pads-games/precache-manifest.014c4b2f670a94000a82500b05b013cb.js"
+  "/pads-games/precache-manifest.6e843ac0aaf1d72aef89ed943a4a5c44.js"
 );
 
 self.addEventListener('message', (event) => {

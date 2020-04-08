@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/pads-games/static/css/main.3a9f8524.chunk.css",
-    "main.js": "/pads-games/static/js/main.b2b0d0dd.chunk.js",
-    "main.js.map": "/pads-games/static/js/main.b2b0d0dd.chunk.js.map",
+    "main.js": "/pads-games/static/js/main.aceefd32.chunk.js",
+    "main.js.map": "/pads-games/static/js/main.aceefd32.chunk.js.map",
     "runtime-main.js": "/pads-games/static/js/runtime-main.6529f9dc.js",
     "runtime-main.js.map": "/pads-games/static/js/runtime-main.6529f9dc.js.map",
-    "static/js/2.756a7cac.chunk.js": "/pads-games/static/js/2.756a7cac.chunk.js",
-    "static/js/2.756a7cac.chunk.js.map": "/pads-games/static/js/2.756a7cac.chunk.js.map",
+    "static/js/2.83487d08.chunk.js": "/pads-games/static/js/2.83487d08.chunk.js",
+    "static/js/2.83487d08.chunk.js.map": "/pads-games/static/js/2.83487d08.chunk.js.map",
     "index.html": "/pads-games/index.html",
-    "precache-manifest.014c4b2f670a94000a82500b05b013cb.js": "/pads-games/precache-manifest.014c4b2f670a94000a82500b05b013cb.js",
+    "precache-manifest.6e843ac0aaf1d72aef89ed943a4a5c44.js": "/pads-games/precache-manifest.6e843ac0aaf1d72aef89ed943a4a5c44.js",
     "service-worker.js": "/pads-games/service-worker.js",
     "static/css/main.3a9f8524.chunk.css.map": "/pads-games/static/css/main.3a9f8524.chunk.css.map",
-    "static/js/2.756a7cac.chunk.js.LICENSE.txt": "/pads-games/static/js/2.756a7cac.chunk.js.LICENSE.txt",
+    "static/js/2.83487d08.chunk.js.LICENSE.txt": "/pads-games/static/js/2.83487d08.chunk.js.LICENSE.txt",
     "static/media/BiscuitDefault.jpg": "/pads-games/static/media/BiscuitDefault.27a800dc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6529f9dc.js",
-    "static/js/2.756a7cac.chunk.js",
+    "static/js/2.83487d08.chunk.js",
     "static/css/main.3a9f8524.chunk.css",
-    "static/js/main.b2b0d0dd.chunk.js"
+    "static/js/main.aceefd32.chunk.js"
   ]
 }

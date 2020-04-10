@@ -44,5 +44,75 @@
     ],
     "goal": "Puppy holds position",
     "challenge": "Distract puppy as they hold the position (be creative)"
+  },
+  {
+    "title": "Dress Up",
+    "description": "Have family members dress up in costumes or sports gear or hats and sunglasses and move around the house; Be wierd for your puppy.",
+    "instruction": [
+      "Find strange things",
+      "put them on and interact with your puppy"
+    ],
+    "goal": "Visual Enrichment for your puppy",
+    "challenge": "nothing here"
+  },
+  {
+    "title": "Obstacle Course",
+    "description": "You know ninja warrior? Try puppy warrior",
+    "instruction": [
+      "Be creative",
+      "Take your chairs and make a tunnel for the puppy to go through",
+      "Put around some empty milk jugs",
+      "Put tin foil on the floor for your puppy to walk on",
+      "Hang up some things that brush against your puppy"
+    ],
+    "goal": "Visual/Active enrichment for your puppy",
+    "challenge": "See if you can make it through the course :)"
+  },
+  {
+    "title": "Move Furniture",
+    "description": "Move around familiar things. Some dogs are thrown off by changes in familiar environments",
+    "instruction": [
+      "Move their dog bed",
+      "Change where they have dinner",
+      "Move the welcome mat to the bedroom door",
+      "The list goes on"
+    ],
+    "goal": "Visual enrichment for your puppy",
+    "challenge": "Nothing here"
+  },
+  {
+    "title": "Hide and Seek",
+    "description": "Put puppy into a position (sit, stand, down, etc.). Get puppy to find you",
+    "instruction": [
+      "Put puppy into position",
+      "Sneakily move around the house and hide",
+      "Remember to keep it easy the first few times, set up the pup for success",
+      "Call out to your puppy using a command that breaks position, ie. puppy puppy!"
+    ],
+    "goal": "Make your puppy think",
+    "challenge": "Sneakily move around the house and backtrack. I think the puppies listen to where you go. Play some music or sprinkle some kibble on the ground"
+  },
+  {
+    "title": "Impressions",
+    "description": "Change your voice and see if your puppy responds",
+    "instruction": [
+      "Do your best (or worst) impression",
+      "Give command to puppy"
+    ],
+    "goal": "Auditory enrichment",
+    "challenge": "Change the pitch and tone of your voice too. Be excited, be sad, be an actor/actress"
+  },
+  {
+    "title": "Make Strange Noises",
+    "description": "Make noises, remember not to startle your puppy. Aim for interest",
+    "instruction": [
+      "Whistle",
+      "Play random music. Sometimes I play the sound of bacon frying",
+      "Whistle, make bird noises",
+      "Bang pots and pans",
+      "Run the vacuum"
+    ],
+    "goal": "Auditory enrichment",
+    "challenge": "Dance around excitedly too"
   }
 ]

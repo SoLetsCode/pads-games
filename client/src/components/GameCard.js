@@ -1,4 +1,7 @@
 import React from "react";
+import { v4 as uuidv4 } from "uuid";
+
+//Material UI
 import { makeStyles } from "@material-ui/core/styles";
 import clsx from "clsx";
 import Card from "@material-ui/core/Card";
@@ -19,7 +22,7 @@ import biscuitImg from "../assets/BiscuitDefault.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 345,
+    width: "95vw",
   },
   media: {
     height: 0,
@@ -42,7 +45,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function GameCard(props) {
   const { title, description, instruction, goal, challenge } = props.game;
-  console.log(title, challenge);
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -51,7 +53,11 @@ export default function GameCard(props) {
   };
 
   const displaySteps = (array) => {
-    return array.map((data) => <Typography paragraph>{data}</Typography>);
+    return array.map((data) => (
+      <Typography paragraph key={uuidv4()}>
+        {data}
+      </Typography>
+    ));
   };
 
   return (

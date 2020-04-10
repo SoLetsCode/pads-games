@@ -81,7 +81,7 @@ function Appbar() {
             <MenuIcon onClick={() => console.log("you clicked me!")} />
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap>
-            PADS Games
+            Training Games
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>

@@ -8,10 +8,11 @@ import games from "./data/games.json";
 //components
 import Appbar from "./components/Appbar";
 import GameCard from "./components/GameCard";
+import Input from "./components/Input";
 // import Radio from "./components/Radio";
 
 //Material-UI
-import { Grid, Button } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 
 function App() {
   const [game, setGame] = useState(games[0]);
@@ -28,9 +29,7 @@ function App() {
           <GameCard game={game} />
         </Grid>
         <Grid item>
-          <Button variant="contained" color="primary" onClick={gameClick}>
-            Lets Play Another Game
-          </Button>
+          <Input gameClick={gameClick} />
         </Grid>
         {/* to be implemented later
         <Grid item>

@@ -1,6 +1,4 @@
-Simple application to randomly display a training game you can play with your PADS puppy in training.
-
-Games will be organized by skill level. Add options to make it harder.
+Simple application to randomly display a training game you can play with your puppy in training.
 
 Changes to come
 

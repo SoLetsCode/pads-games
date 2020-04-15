@@ -12,3 +12,53 @@ body {
 *::after {
   box-sizing: inherit;
 }
+
+.gamecard__slide-left {
+  position: absolute;
+  animation: left-keyframes 0.5s linear 1;
+}
+
+@keyframes left-keyframe {
+  from {
+    left: -100vw;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.gamecard__slide-right {
+  position: absolute;
+  animation: right-keyframes 0.5s linear 1;
+}
+
+@keyframes right-keyframe {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100vw;
+  }
+}
+
+.gamecard__flip {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  animation: flip-keyframes 0.75s ease-in 1;
+  backface-visibility: hidden;
+}
+
+@keyframes flip-keyframes {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.gamecard__wrapper {
+  background-color: #3f51b5;
+  border-radius: 4px;
+  margin: 1rem 0 0 0;
+}

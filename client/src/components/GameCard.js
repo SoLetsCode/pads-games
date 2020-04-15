@@ -78,7 +78,7 @@ export default function GameCard(props) {
             <MoreVertIcon />
           </IconButton>
         }
-        title={title}
+        title={<Typography variant="h6">{title}</Typography>}
       />
       <CardMedia className={classes.media} image={biscuitImg} title="Biscuit" />
       <CardContent>

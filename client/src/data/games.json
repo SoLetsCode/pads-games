@@ -160,15 +160,15 @@
   },
   {
     "title": "Find It",
-    "description": "Have puppy search for toy for a treat",
+    "description": "Have puppy search for toy",
     "instruction": [
-      "Get puppy exited about their favorite chew toy",
+      "Get puppy exited about their favorite chew or tug toy",
       "Cue puppy into a position",
       "Hide the toy close by",
-      "Say find it, when puppy finds the toy get really excited and treat!"
+      "Say find it, when puppy finds the toy get really excited and play with them!"
     ],
     "goal": "Stimulate the puppy",
-    "challenge": "Hide it in harder places, within reason..."
+    "challenge": "Hide it in harder places"
   },
   {
     "title": "Traffic Light Game",
@@ -218,5 +218,127 @@
     ],
     "goal": "Have a good command to use to recall puppy. This is less formal than lets go or here",
     "challenge": "Change your voice or wear silly clothing"
+  },
+  {
+    "title": "Name Game In Position",
+    "description": "Puppy will look at you when you say their name or focus and not leave position",
+    "instruction": [
+      "Remember saying puppies name or focus is not a cue to break position",
+      "Give puppy a cue (ie. down, sit, stand)",
+      "Say their name or say focus",
+      "When they look and don't move mark and reward!"
+    ],
+    "goal": "Puppy understands their name/focus is not a cue to break position",
+    "challenge": ""
+  },
+  {
+    "title": "Odd Position Commands",
+    "description": "Give your puppy cues in different positions",
+    "instruction": [
+      "Make it easy! If you usually give cues standing up, crotch down slightly",
+      "You can work it until you are lying down on the ground giving commands",
+      "Get into your position",
+      "Give cue to puppy",
+      "When they execute, mark and reward"
+    ],
+    "goal": "Puppy understands cues no matter what position you are in",
+    "challenge": "Try giving side and heel commands in a sitting position (surprisingly hard)"
+  },
+  {
+    "title": "Romantic Dinner",
+    "description": "Hand feed your puppy",
+    "instruction": [
+      "Make it romantic, dim the lights and play some music",
+      "Get in cuddle position or sit at the couch, then hand feed your pup",
+      "You can even pretend to eat the food so your puppy thinks you are sharing food with them"
+    ],
+    "goal": "Puppy builds trust with handler",
+    "challenge": "Try doing this without wiping the drool off your hands"
+  },
+  {
+    "title": "Cuddle Session",
+    "description": "Sit down with your puppy and watch TV or play games",
+    "instruction": ["Get a comfy spot and relax"],
+    "goal": "",
+    "challenge": "Just relax"
+  },
+  {
+    "title": "Puppy Dress Up",
+    "description": "Have clothes that you don't wear? Try them out on the puppy",
+    "instruction": [
+      "Find clothes",
+      "Put them on puppy",
+      "Praise and reward them for their patience and take photos!"
+    ],
+    "goal": "Puppy feels comfortable with objects on their body",
+    "challenge": ""
+  },
+  {
+    "title": "Stair Walk",
+    "description": "Walk with puppy up and down stairs",
+    "instruction": [
+      "Take one step up the stairs",
+      "Mark and reward puppy for following beside you",
+      "Do this for each step of the stairs",
+      "Once puppy starts staying next to you consistently, you can space out rewards"
+    ],
+    "goal": "Puppy is engaged with handler and does not dart up the stairs",
+    "challenge": "Try going down the stairs or leave kibble on the steps"
+  },
+  {
+    "title": "Puppy Hockey",
+    "description": "Slide food to your puppy's body and do not let them eat it",
+    "instruction": [
+      "Cue puppy into down",
+      "Slide kibble towards them",
+      "You can aim for their body at first, or if you want a challenge aim between their front paws",
+      "Praise and reward them for not eating the kibble off the ground"
+    ],
+    "goal": "Puppy does not eat food off the floor",
+    "challenge": "Try rolling other objects like balls or higher value food"
+  },
+  {
+    "title": "Pushups with the Puppy",
+    "description": "Work out with your puppy",
+    "instruction": [
+      "Assume push up position, puppy will be in a Stand/Sit position",
+      "Go down and tell puppy to Down",
+      "Go up and tell puppy Sit or Stand"
+    ],
+    "goal": "Puppy gets some excercise and so do you",
+    "challenge": ""
+  },
+  {
+    "title": "Snout Challenge",
+    "description": "Have puppy put their nose through a circle made with your hands",
+    "instruction": [
+      "Search up snout challenge on google to get an idea of what to do",
+      "Go down and tell puppy to Down",
+      "Go up and tell puppy Sit or Stand"
+    ],
+    "goal": "Puppy does not mind putting snout into loops",
+    "challenge": "Try increasing the distance between you and your pup"
+  },
+  {
+    "title": "Out Game With Door",
+    "description": "Have puppy cross door thresholds",
+    "instruction": [
+      "Stand by a doorway and say out",
+      "When puppy crosses threshold, mark and reward",
+      "Remember out just means cross the threshold; So if you say out repeatedly they should just go back and forth"
+    ],
+    "goal": "Reinforce puppy's knowledge of out",
+    "challenge": "Give them random commands so they don't pick up a pattern. Ie. sit, stand, down before saying out"
+  },
+  {
+    "title": "Carpet Bomb",
+    "description": "Puppy only eats kibble that falls onto their mat",
+    "instruction": [
+      "Lay out a large mat for your puppy",
+      "Drop kibble one at a time from the sky",
+      "Puppy may only eat kibble that falls onto the mat"
+    ],
+    "goal": "Puppy learns food on the floor is no good",
+    "challenge": "Try dropping several kibble at a time"
   }
 ]

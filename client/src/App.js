@@ -15,11 +15,14 @@ import Input from "./components/Input";
 import { Grid } from "@material-ui/core";
 
 function App() {
-  const [game, setGame] = useState(games[0]);
+  const [game, setGame] = useState(
+    games[Math.floor(Math.random() * games.length)]
+  );
+  const [flip, setFlip] = useState(false);
 
   const gameClick = () => {
     setGame(games[Math.floor(Math.random() * games.length)]);
-    return true;
+    setFlip(!flip);
   };
 
   return (
@@ -27,7 +30,14 @@ function App() {
       <Appbar />
       <Grid container justify="center">
         <Grid item>
-          <GameCard game={game} />
+          <div className="gamecard__wrapper">
+            <div
+              className={flip ? "gamecard__flip" : ""}
+              onAnimationEnd={() => setFlip(false)}
+            >
+              <GameCard game={game} />
+            </div>
+          </div>
         </Grid>
         <Grid item>
           <Input gameClick={gameClick} />

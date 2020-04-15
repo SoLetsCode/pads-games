@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4237efc80dce4ee15293b6104f8ec99",
+    "revision": "c5a8a13efab7d720bc25bd61d3cd5723",
     "url": "/pads-games/index.html"
   },
   {
-    "revision": "70d9a4d18605e347e8d2",
+    "revision": "7bcc3490ea96ebc417d5",
     "url": "/pads-games/static/css/main.3a9f8524.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pads-games/static/js/2.61c5dee0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70d9a4d18605e347e8d2",
-    "url": "/pads-games/static/js/main.53c4a6a5.chunk.js"
+    "revision": "7bcc3490ea96ebc417d5",
+    "url": "/pads-games/static/js/main.b7d752d1.chunk.js"
   },
   {
     "revision": "8a1b9a663bd7c4f1ab1d",

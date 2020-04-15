@@ -21,7 +21,6 @@ function App() {
   const [flip, setFlip] = useState(false);
 
   const gameClick = () => {
-    setGame(games[Math.floor(Math.random() * games.length)]);
     setFlip(!flip);
   };
 
@@ -33,7 +32,10 @@ function App() {
           <div className="gamecard__wrapper">
             <div
               className={flip ? "gamecard__flip" : ""}
-              onAnimationEnd={() => setFlip(false)}
+              onAnimationEnd={() => {
+                setFlip(false);
+                setGame(games[Math.floor(Math.random() * games.length)]);
+              }}
             >
               <GameCard game={game} />
             </div>

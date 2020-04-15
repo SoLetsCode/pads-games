@@ -19,6 +19,7 @@ function App() {
 
   const gameClick = () => {
     setGame(games[Math.floor(Math.random() * games.length)]);
+    return true;
   };
 
   return (

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 //Material UI
@@ -47,6 +47,11 @@ export default function GameCard(props) {
   const { title, description, instruction, goal, challenge } = props.game;
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
+
+  //fix so that the card will collapse when changing to a different game
+  useEffect(() => {
+    setExpanded(false);
+  }, [title]);
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -105,14 +110,23 @@ export default function GameCard(props) {
             How to Play:
           </Typography>
           {displaySteps(instruction)}
-          <Typography paragraph variant="h6">
-            Goal
-          </Typography>
-          <Typography paragraph>{goal}</Typography>
-          <Typography paragraph variant="h6">
-            Challenge Me!
-          </Typography>
-          <Typography paragraph>{challenge}</Typography>
+          {goal && (
+            <>
+              <Typography paragraph variant="h6">
+                Goal
+              </Typography>
+              <Typography paragraph>{goal}</Typography>
+            </>
+          )}
+
+          {challenge && (
+            <>
+              <Typography paragraph variant="h6">
+                Challenge Me!
+              </Typography>
+              <Typography paragraph>{challenge}</Typography>
+            </>
+          )}
         </CardContent>
       </Collapse>
     </Card>

@@ -114,5 +114,109 @@
     ],
     "goal": "Auditory enrichment",
     "challenge": "Dance around excitedly too"
+  },
+  {
+    "title": "Feeding Time",
+    "description": "Make your puppy work for their food",
+    "instruction": [
+      "Feed puppy from slow feeder, stuffed kong, snuffle mat or hand feed"
+    ],
+    "goal": "Food based enrichment",
+    "challenge": "Say a command and see if they stop eating. Reward if they do :)"
+  },
+  {
+    "title": "Kibble Challenge",
+    "description": "have your puppy sit still while you write their name in kibble",
+    "instruction": [
+      "Set your puppy in a position (sit, down, stand)",
+      "Use kibble and write their name on the floor",
+      "Keep it easy and take photos, you can hand feed periodically and say \"good\"",
+      "clean up the mess and give your puppy a treat!"
+    ],
+    "goal": "Teach puppy not to eat food off the ground and self-control",
+    "challenge": "Can your puppy do this in a stand?"
+  },
+  {
+    "title": "Kibble on Body",
+    "description": "have your puppy be still while you put kibble on their body",
+    "instruction": [
+      "Set your puppy in a down position",
+      "Put kibble on the top of their paws and say mine so they do not eat it",
+      "Say Release and let them eat the kibble!"
+    ],
+    "goal": "Teach puppy self-control",
+    "challenge": "Put it all over their body! Extra points for the head and nose. Make sure the food doesn't fall onto the floor when you say release"
+  },
+  {
+    "title": "Rolling balls",
+    "description": "Roll balls around puppy and they should not react",
+    "instruction": [
+      "Roll ball",
+      "When puppy does not react, treat!",
+      "If puppy is ball-driven, avoid this one"
+    ],
+    "goal": "Teach puppy ball are not a bid deal",
+    "challenge": "Roll more balls and other objects!"
+  },
+  {
+    "title": "Find It",
+    "description": "Have puppy search for toy for a treat",
+    "instruction": [
+      "Get puppy exited about their favorite chew toy",
+      "Cue puppy into a position",
+      "Hide the toy close by",
+      "Say find it, when puppy finds the toy get really excited and treat!"
+    ],
+    "goal": "Stimulate the puppy",
+    "challenge": "Hide it in harder places, within reason..."
+  },
+  {
+    "title": "Traffic Light Game",
+    "description": "Have puppy respond to commands like sit, stand, down as they move towards you",
+    "instruction": [
+      "Cue puppy into a position and walk away",
+      "Call puppy over, (ie. puppy puppy, here, release)",
+      "As puppy comes towards you say a command and they should stop and execute it",
+      "Click or say yes then treat!"
+    ],
+    "goal": "Puppy executes cues at a distance",
+    "challenge": "do multiple cues per game (ie. sit, release, down, release, here, Yes!"
+  },
+  {
+    "title": "Bed/Kennel Relay",
+    "description": "Cue puppy towards you or into a position then reward at the bed or kennel",
+    "instruction": [
+      "Give puppy cue",
+      "Mark behaviour then throw treat to the kennel or bed",
+      "Repeat and laugh as you bounce the puppy back and forth",
+      "Improve your aim and don't throw it onto the floor"
+    ],
+    "goal": "Puppy gets some physical stimulation",
+    "challenge": "Leave kibble on the ground for them to avoid or do this from a greater distance"
+  },
+  {
+    "title": "Food Bag Foraging",
+    "description": "Let puppy forage for food in the food bag",
+    "instruction": [
+      "This one is quite complex find the detailed guide @ https://hydrant.pads.ca/food-bag-foraging/",
+      "Cue puppy into position",
+      "Set yo an empty food bag with a few kibble inside",
+      "Release the puppy or use Go Sniff command",
+      "Try to recall your puppy",
+      "If they do not respond, try using less enticing items in the bag"
+    ],
+    "goal": "Teach puppy explicit permission and have them be comfortable in enclosed spaces. Also teach puppy to listen to commands in the presence of food",
+    "challenge": "Add better food in the bag"
+  },
+  {
+    "title": "This Way",
+    "description": "Get the puppy to move in your general direction when you say the cue",
+    "instruction": [
+      "Cue the puppy into position (sit, stand, down)",
+      "Say this way move away",
+      "If puppy leaves position and moves towards you, mark and treat"
+    ],
+    "goal": "Have a good command to use to recall puppy. This is less formal than lets go or here",
+    "challenge": "Change your voice or wear silly clothing"
   }
 ]

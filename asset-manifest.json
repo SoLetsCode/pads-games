@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/pads-games/static/css/main.3a9f8524.chunk.css",
-    "main.js": "/pads-games/static/js/main.b7d752d1.chunk.js",
-    "main.js.map": "/pads-games/static/js/main.b7d752d1.chunk.js.map",
-    "runtime-main.js": "/pads-games/static/js/runtime-main.6529f9dc.js",
-    "runtime-main.js.map": "/pads-games/static/js/runtime-main.6529f9dc.js.map",
-    "static/js/2.61c5dee0.chunk.js": "/pads-games/static/js/2.61c5dee0.chunk.js",
-    "static/js/2.61c5dee0.chunk.js.map": "/pads-games/static/js/2.61c5dee0.chunk.js.map",
-    "index.html": "/pads-games/index.html",
-    "precache-manifest.0c4b21f827f36ddcd3ec204e742dee63.js": "/pads-games/precache-manifest.0c4b21f827f36ddcd3ec204e742dee63.js",
-    "service-worker.js": "/pads-games/service-worker.js",
-    "static/css/main.3a9f8524.chunk.css.map": "/pads-games/static/css/main.3a9f8524.chunk.css.map",
-    "static/js/2.61c5dee0.chunk.js.LICENSE.txt": "/pads-games/static/js/2.61c5dee0.chunk.js.LICENSE.txt",
-    "static/media/BiscuitDefault.jpg": "/pads-games/static/media/BiscuitDefault.27a800dc.jpg"
+    "main.css": "/puppy-games/static/css/main.3a9f8524.chunk.css",
+    "main.js": "/puppy-games/static/js/main.b7d752d1.chunk.js",
+    "main.js.map": "/puppy-games/static/js/main.b7d752d1.chunk.js.map",
+    "runtime-main.js": "/puppy-games/static/js/runtime-main.10b187b3.js",
+    "runtime-main.js.map": "/puppy-games/static/js/runtime-main.10b187b3.js.map",
+    "static/js/2.61c5dee0.chunk.js": "/puppy-games/static/js/2.61c5dee0.chunk.js",
+    "static/js/2.61c5dee0.chunk.js.map": "/puppy-games/static/js/2.61c5dee0.chunk.js.map",
+    "index.html": "/puppy-games/index.html",
+    "precache-manifest.a9ebb691163a7de02f40224c7e88834c.js": "/puppy-games/precache-manifest.a9ebb691163a7de02f40224c7e88834c.js",
+    "service-worker.js": "/puppy-games/service-worker.js",
+    "static/css/main.3a9f8524.chunk.css.map": "/puppy-games/static/css/main.3a9f8524.chunk.css.map",
+    "static/js/2.61c5dee0.chunk.js.LICENSE.txt": "/puppy-games/static/js/2.61c5dee0.chunk.js.LICENSE.txt",
+    "static/media/BiscuitDefault.jpg": "/puppy-games/static/media/BiscuitDefault.27a800dc.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6529f9dc.js",
+    "static/js/runtime-main.10b187b3.js",
     "static/js/2.61c5dee0.chunk.js",
     "static/css/main.3a9f8524.chunk.css",
     "static/js/main.b7d752d1.chunk.js"

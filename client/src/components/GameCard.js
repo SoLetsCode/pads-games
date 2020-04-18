@@ -20,6 +20,8 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import biscuitImg from "../assets/BiscuitDefault.jpg";
 
+import pawicon from "../assets/pawicon.png";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "95vw",
@@ -40,6 +42,10 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {
     backgroundColor: red[500],
+  },
+  image: {
+    height: "35px",
+    width: "32px",
   },
 }));
 
@@ -70,19 +76,20 @@ export default function GameCard(props) {
       <CardHeader
         avatar={
           <Avatar aria-label="level" className={classes.avatar}>
-            P
+            <img src={pawicon} alt="paw icon" className={classes.image} />
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
+        //action button not functional yet
+        // action={
+        //   <IconButton aria-label="settings">
+        //     <MoreVertIcon />
+        //   </IconButton>
+        // }
         title={<Typography variant="h6">{title}</Typography>}
       />
       <CardMedia className={classes.media} image={biscuitImg} title="Biscuit" />
       <CardContent>
-        <Typography variant="body2" color="textSecondary" component="p">
+        <Typography color="textSecondary" component="p">
           {description}
         </Typography>
       </CardContent>

@@ -33,8 +33,9 @@ function App() {
             <div
               className={flip ? "gamecard__flip" : ""}
               onAnimationEnd={() => {
+                flip &&
+                  setGame(games[Math.floor(Math.random() * games.length)]);
                 setFlip(false);
-                setGame(games[Math.floor(Math.random() * games.length)]);
               }}
             >
               <GameCard game={game} />

@@ -8,6 +8,9 @@ import { fade, makeStyles } from "@material-ui/core/styles";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 
+//components
+import Menulist from "./Menulist";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -18,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     display: "inline-block",
+    fontStyle: "italic",
     [theme.breakpoints.up("sm")]: {
       display: "block",
     },
@@ -72,17 +76,20 @@ function Appbar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
+          {/* <Menulist /> to be implemented soon*/}
           <IconButton
             edge="start"
             className={classes.menuButton}
             color="inherit"
             aria-label="open drawer"
           >
-            <MenuIcon onClick={() => console.log("you clicked me!")} />
+            <MenuIcon />
           </IconButton>
+
           <Typography className={classes.title} variant="h6" noWrap>
-            Training Games
+            TRAINING GAMES
           </Typography>
+
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />

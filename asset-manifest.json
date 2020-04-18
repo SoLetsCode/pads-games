@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/puppy-games/static/css/main.5806c881.chunk.css",
-    "main.js": "/puppy-games/static/js/main.b5909fdf.chunk.js",
-    "main.js.map": "/puppy-games/static/js/main.b5909fdf.chunk.js.map",
+    "main.js": "/puppy-games/static/js/main.bf63ca4e.chunk.js",
+    "main.js.map": "/puppy-games/static/js/main.bf63ca4e.chunk.js.map",
     "runtime-main.js": "/puppy-games/static/js/runtime-main.10b187b3.js",
     "runtime-main.js.map": "/puppy-games/static/js/runtime-main.10b187b3.js.map",
-    "static/js/2.daa3e2f0.chunk.js": "/puppy-games/static/js/2.daa3e2f0.chunk.js",
-    "static/js/2.daa3e2f0.chunk.js.map": "/puppy-games/static/js/2.daa3e2f0.chunk.js.map",
+    "static/js/2.d20e7a29.chunk.js": "/puppy-games/static/js/2.d20e7a29.chunk.js",
+    "static/js/2.d20e7a29.chunk.js.map": "/puppy-games/static/js/2.d20e7a29.chunk.js.map",
     "index.html": "/puppy-games/index.html",
-    "precache-manifest.b57c642f50da488f0ac13ff47a628dee.js": "/puppy-games/precache-manifest.b57c642f50da488f0ac13ff47a628dee.js",
+    "precache-manifest.b8eaa9d9b407cf284ee49c1515714208.js": "/puppy-games/precache-manifest.b8eaa9d9b407cf284ee49c1515714208.js",
     "service-worker.js": "/puppy-games/service-worker.js",
     "static/css/main.5806c881.chunk.css.map": "/puppy-games/static/css/main.5806c881.chunk.css.map",
-    "static/js/2.daa3e2f0.chunk.js.LICENSE.txt": "/puppy-games/static/js/2.daa3e2f0.chunk.js.LICENSE.txt",
-    "static/media/BiscuitDefault.jpg": "/puppy-games/static/media/BiscuitDefault.27a800dc.jpg"
+    "static/js/2.d20e7a29.chunk.js.LICENSE.txt": "/puppy-games/static/js/2.d20e7a29.chunk.js.LICENSE.txt",
+    "static/media/BiscuitDefault.jpg": "/puppy-games/static/media/BiscuitDefault.27a800dc.jpg",
+    "static/media/pawicon.png": "/puppy-games/static/media/pawicon.b5798200.png"
   },
   "entrypoints": [
     "static/js/runtime-main.10b187b3.js",
-    "static/js/2.daa3e2f0.chunk.js",
+    "static/js/2.d20e7a29.chunk.js",
     "static/css/main.5806c881.chunk.css",
-    "static/js/main.b5909fdf.chunk.js"
+    "static/js/main.bf63ca4e.chunk.js"
   ]
 }

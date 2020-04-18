@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/puppy-games/precache-manifest.b57c642f50da488f0ac13ff47a628dee.js"
+  "/puppy-games/precache-manifest.b8eaa9d9b407cf284ee49c1515714208.js"
 );
 
 self.addEventListener('message', (event) => {

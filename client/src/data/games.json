@@ -47,7 +47,7 @@
   },
   {
     "title": "Dress Up",
-    "description": "Have family members dress up in costumes or sports gear or hats and sunglasses and move around the house; Be wierd for your puppy.",
+    "description": "Have family members dress up in costumes or sports gear or hats and sunglasses and move around the house; Be weird for your puppy.",
     "instruction": [
       "Find strange things",
       "put them on and interact with your puppy"
@@ -340,5 +340,58 @@
     ],
     "goal": "Puppy learns food on the floor is no good",
     "challenge": "Try dropping several kibble at a time"
+  },
+  {
+    "title": "Mine Yours",
+    "description": "Puppy knows to leave what isn't his and will have it with your permission",
+    "instruction": [
+      "Put kibble on puppy's paw and say mine",
+      "Puppy should not eat the kibble",
+      "Say yours and the puppy can eat it!",
+      "Alternatively, use a chew toy; let puppy chew then say mine. He should release it to you"
+    ],
+    "goal": "Puppy learns self control",
+    "challenge": "increase duration"
+  },
+  {
+    "title": "Dinner word game",
+    "description": "Puppy only eats meal after you say release",
+    "instruction": [
+      "Fill bowl with food",
+      "Hold bowl up until puppy sits and waits",
+      "Lower food bowl. Puppy should not eat until you say Release",
+      "Now for the fun, say random words to play with your puppy",
+      "Remember, Recall, Rottiserie, Reverand, Recycle etc."
+    ],
+    "goal": "Puppy learns self control",
+    "challenge": ""
+  },
+  {
+    "title": "It's your choice",
+    "description": "Puppy learns in order to get what they want, they need to do what you want",
+    "instruction": [
+      "close hand around kibble and let dog sniff. They do not get the treat",
+      "Anchor arm on knee to prevent movement",
+      "Open hand when he stops trying to get the treat",
+      "Hand opening signals puppy is doing something right",
+      "If puppy goes in to get the treat without your permission close hand",
+      "When puppy waits patiently you may treat them"
+    ],
+    "goal": "Puppy makes good choices",
+    "challenge": ""
+  },
+  {
+    "title": "Head Lower",
+    "description": "Shaping dog to lower head to ground",
+    "instruction": [
+      "This is done with the puppy in the Down Position",
+      "Initially reward for head movement",
+      "Then focus on head moving in a downward direction",
+      "You may treat from the bottom to encourage head to go there",
+      "Or you can treat away to reset his head position",
+      "Keep shaping as the dogs head gets lower and lower"
+    ],
+    "goal": "For the trainer; learn how to shape behaviours",
+    "challenge": ""
   }
 ]

@@ -16,7 +16,8 @@ import { Grid } from "@material-ui/core";
 
 function App() {
   const [game, setGame] = useState(
-    games[Math.floor(Math.random() * games.length)]
+    games[games.length - 1]
+    // games[Math.floor(Math.random() * games.length)]
   );
   const [flip, setFlip] = useState(false);
 

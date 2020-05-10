@@ -25,7 +25,7 @@ function App() {
     // games[Math.floor(Math.random() * games.length)]
   );
 
-  const [gamePhoto, setGamePhoto] = useState(2);
+  const [gamePhoto, setGamePhoto] = useState(0);
 
   const [flip, setFlip] = useState(false);
 

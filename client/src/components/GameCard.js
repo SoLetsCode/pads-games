@@ -18,8 +18,9 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
-import biscuitImg from "../assets/BiscuitDefault.jpg";
 
+//icons
+import { photos } from "../helper/photoHelper";
 import pawicon from "../assets/pawicon.png";
 
 const useStyles = makeStyles((theme) => ({
@@ -51,6 +52,8 @@ const useStyles = makeStyles((theme) => ({
 
 export default function GameCard(props) {
   const { title, description, instruction, goal, challenge } = props.game;
+
+  const { image } = props;
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -87,7 +90,11 @@ export default function GameCard(props) {
         // }
         title={<Typography variant="h6">{title}</Typography>}
       />
-      <CardMedia className={classes.media} image={biscuitImg} title="Biscuit" />
+      <CardMedia
+        className={classes.media}
+        image={photos[`photo${image}`]}
+        title="Biscuit"
+      />
       <CardContent>
         <Typography color="textSecondary" component="p">
           {description}

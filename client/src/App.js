@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 import "./styles/app.css";
 
@@ -11,6 +12,10 @@ import GameCard from "./components/GameCard";
 import Input from "./components/Input";
 // import Radio from "./components/Radio";
 
+//images
+import { photos } from "./helper/photoHelper";
+import biscuitDefault from "./assets/BiscuitDefault.jpg";
+
 //Material-UI
 import { Grid } from "@material-ui/core";
 
@@ -19,6 +24,9 @@ function App() {
     games[games.length - 1]
     // games[Math.floor(Math.random() * games.length)]
   );
+
+  const [gamePhoto, setGamePhoto] = useState(1);
+
   const [flip, setFlip] = useState(false);
 
   const gameClick = () => {
@@ -35,11 +43,15 @@ function App() {
               className={flip ? "gamecard__flip" : ""}
               onAnimationEnd={() => {
                 flip &&
-                  setGame(games[Math.floor(Math.random() * games.length)]);
+                  setGamePhoto(
+                    Math.floor(Math.random() * Object.keys(photos).length)
+                  );
+                setGame(games[Math.floor(Math.random() * games.length)]);
+
                 setFlip(false);
               }}
             >
-              <GameCard game={game} />
+              <GameCard game={game} image={gamePhoto} />
             </div>
           </div>
         </Grid>

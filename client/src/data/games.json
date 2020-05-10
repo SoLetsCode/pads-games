@@ -355,13 +355,13 @@
   },
   {
     "title": "Dinner word game",
-    "description": "Puppy only eats meal after you say release",
+    "description": "Puppy only eats meal after you say Yes",
     "instruction": [
       "Fill bowl with food",
       "Hold bowl up until puppy sits and waits",
-      "Lower food bowl. Puppy should not eat until you say Release",
+      "Lower food bowl. Puppy should not eat until you say Yes",
       "Now for the fun, say random words to play with your puppy",
-      "Remember, Recall, Rottiserie, Reverand, Recycle etc."
+      "Pester, Zest, Pest, Crest, Coalesce, Fest, etc."
     ],
     "goal": "Puppy learns self control",
     "challenge": ""

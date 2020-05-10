@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82a1e2c98ebef9462ba1104736069b01",
+    "revision": "7361c2e883bffbbb6745fc20d288c668",
     "url": "/puppy-games/index.html"
   },
   {
-    "revision": "25d3fe44e7e8de155c3f",
+    "revision": "026a1d878c4811b27fda",
     "url": "/puppy-games/static/css/main.5806c881.chunk.css"
   },
   {
-    "revision": "3ce8ecb35a383a2aee31",
-    "url": "/puppy-games/static/js/2.594a6912.chunk.js"
+    "revision": "b2bde709954dd65f9e2e",
+    "url": "/puppy-games/static/js/2.c5810028.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/puppy-games/static/js/2.594a6912.chunk.js.LICENSE.txt"
+    "url": "/puppy-games/static/js/2.c5810028.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "25d3fe44e7e8de155c3f",
-    "url": "/puppy-games/static/js/main.3c2031f4.chunk.js"
+    "revision": "026a1d878c4811b27fda",
+    "url": "/puppy-games/static/js/main.3075e297.chunk.js"
   },
   {
     "revision": "0fd721541a4a3c0fa582",
@@ -44,8 +44,56 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/puppy-games/static/media/12.2ca05c1d.jpg"
   },
   {
+    "revision": "319b1a1cc062c95f19c2732619e8a0a2",
+    "url": "/puppy-games/static/media/13.319b1a1c.jpg"
+  },
+  {
+    "revision": "5a419ddf2df9e857cc7945c338f62a30",
+    "url": "/puppy-games/static/media/14.5a419ddf.jpg"
+  },
+  {
+    "revision": "cc6b4dc1474f5b47167997782b80dba4",
+    "url": "/puppy-games/static/media/15.cc6b4dc1.jpg"
+  },
+  {
+    "revision": "3d6a80bb3c369512c3e770991870b828",
+    "url": "/puppy-games/static/media/16.3d6a80bb.jpg"
+  },
+  {
+    "revision": "c11efe63bf136730a2c307f3a11c5618",
+    "url": "/puppy-games/static/media/17.c11efe63.jpg"
+  },
+  {
+    "revision": "15ddcdf769882d163b247b9a7d06856f",
+    "url": "/puppy-games/static/media/18.15ddcdf7.jpg"
+  },
+  {
+    "revision": "bc802b4e10035875fdbe44730bdf1a91",
+    "url": "/puppy-games/static/media/19.bc802b4e.jpg"
+  },
+  {
     "revision": "b039aae59b70af62d458aa9d5899d6b1",
     "url": "/puppy-games/static/media/2.b039aae5.jpg"
+  },
+  {
+    "revision": "4974700e2477d2fb58aa8cf743e805e2",
+    "url": "/puppy-games/static/media/20.4974700e.jpg"
+  },
+  {
+    "revision": "ffc52f289cde666e79c5d1c2155a2003",
+    "url": "/puppy-games/static/media/21.ffc52f28.jpg"
+  },
+  {
+    "revision": "44c11868b3a157a749a603c268d3d991",
+    "url": "/puppy-games/static/media/22.44c11868.jpg"
+  },
+  {
+    "revision": "41cd1c5d56b1a91d4f468f08a400b6b6",
+    "url": "/puppy-games/static/media/23.41cd1c5d.HEIC"
+  },
+  {
+    "revision": "1ab2dc5f8dd9331a19871ffb50b67ba9",
+    "url": "/puppy-games/static/media/24.1ab2dc5f.jpg"
   },
   {
     "revision": "fdd8f9c5165c7ecc5f3b6abba8b49b7d",

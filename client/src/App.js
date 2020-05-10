@@ -26,11 +26,31 @@ function App() {
   );
 
   const [gamePhoto, setGamePhoto] = useState(0);
-
   const [flip, setFlip] = useState(false);
 
   const gameClick = () => {
     setFlip(!flip);
+  };
+
+  const newGame = () => {
+    let gameNumber = Math.floor(Math.random() * games.length);
+    let photoNumber = Math.floor(Math.random() * Object.keys(photos).length);
+
+    const currentGame = games.findIndex((data) => data.title === game.title);
+
+    if (currentGame === gameNumber) {
+      console.log("same game detected!");
+      gameNumber === games.length - 1 ? gameNumber-- : gameNumber++;
+    }
+
+    if (photoNumber === gamePhoto) {
+      console.log("same photo detected!");
+      photoNumber === Object.keys(photos).length - 1
+        ? photoNumber--
+        : photoNumber++;
+    }
+    setGame(games[gameNumber]);
+    setGamePhoto(photoNumber);
   };
 
   return (
@@ -42,11 +62,7 @@ function App() {
             <div
               className={flip ? "gamecard__flip" : ""}
               onAnimationEnd={() => {
-                flip &&
-                  setGamePhoto(
-                    Math.floor(Math.random() * Object.keys(photos).length)
-                  );
-                setGame(games[Math.floor(Math.random() * games.length)]);
+                flip && newGame();
 
                 setFlip(false);
               }}

@@ -77,14 +77,15 @@ function Appbar() {
       <AppBar position="static">
         <Toolbar>
           {/* <Menulist /> to be implemented soon*/}
-          <IconButton
+          {/* Below is the menu list, to be implemented soon */}
+          {/* <IconButton
             edge="start"
             className={classes.menuButton}
             color="inherit"
             aria-label="open drawer"
           >
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
 
           <Typography className={classes.title} variant="h6" noWrap>
             TRAINING GAMES

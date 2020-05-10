@@ -8,7 +8,7 @@ import photo6 from "../assets/photos/6.jpg";
 import photo7 from "../assets/photos/7.jpg";
 import photo8 from "../assets/photos/8.jpg";
 import photo9 from "../assets/photos/9.jpg";
-import photo10 from "../assets/photos/10.HEIC";
+import photo10 from "../assets/photos/10.jpg";
 import photo11 from "../assets/photos/11.jpg";
 import photo12 from "../assets/photos/12.jpg";
 import photo13 from "../assets/photos/13.jpg";
@@ -21,7 +21,7 @@ import photo19 from "../assets/photos/19.jpg";
 import photo20 from "../assets/photos/20.jpg";
 import photo21 from "../assets/photos/21.jpg";
 import photo22 from "../assets/photos/22.jpg";
-import photo23 from "../assets/photos/23.HEIC";
+import photo23 from "../assets/photos/23.jpg";
 import photo24 from "../assets/photos/24.jpg";
 
 const photos = {

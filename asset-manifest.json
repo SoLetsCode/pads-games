@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/puppy-games/static/css/main.5806c881.chunk.css",
-    "main.js": "/puppy-games/static/js/main.2b2c2cf3.chunk.js",
-    "main.js.map": "/puppy-games/static/js/main.2b2c2cf3.chunk.js.map",
+    "main.js": "/puppy-games/static/js/main.115149c3.chunk.js",
+    "main.js.map": "/puppy-games/static/js/main.115149c3.chunk.js.map",
     "runtime-main.js": "/puppy-games/static/js/runtime-main.10b187b3.js",
     "runtime-main.js.map": "/puppy-games/static/js/runtime-main.10b187b3.js.map",
     "static/js/2.c99ab9ce.chunk.js": "/puppy-games/static/js/2.c99ab9ce.chunk.js",
     "static/js/2.c99ab9ce.chunk.js.map": "/puppy-games/static/js/2.c99ab9ce.chunk.js.map",
     "index.html": "/puppy-games/index.html",
-    "precache-manifest.623ac7095d7069ce629967376d97dc5b.js": "/puppy-games/precache-manifest.623ac7095d7069ce629967376d97dc5b.js",
+    "precache-manifest.236519dc28e4acda6fe5ed5615229f57.js": "/puppy-games/precache-manifest.236519dc28e4acda6fe5ed5615229f57.js",
     "service-worker.js": "/puppy-games/service-worker.js",
     "static/css/main.5806c881.chunk.css.map": "/puppy-games/static/css/main.5806c881.chunk.css.map",
     "static/js/2.c99ab9ce.chunk.js.LICENSE.txt": "/puppy-games/static/js/2.c99ab9ce.chunk.js.LICENSE.txt",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.10b187b3.js",
     "static/js/2.c99ab9ce.chunk.js",
     "static/css/main.5806c881.chunk.css",
-    "static/js/main.2b2c2cf3.chunk.js"
+    "static/js/main.115149c3.chunk.js"
   ]
 }

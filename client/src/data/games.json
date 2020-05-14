@@ -381,6 +381,20 @@
     "challenge": ""
   },
   {
+    "title": "Go Go Stop",
+    "description": "Puppy will follow handler at different speeds",
+    "instruction": [
+      "Cue puppy into Lets Go position",
+      "Walk slowly if puppy stays by your side treat",
+      "Try walking faster and then stop",
+      "If puppy is still at your side treat and repeat",
+      "If puppy is not at your side, guide pupppy into proper position, do not treat",
+      "Try again"
+    ],
+    "goal": "Puppy will pay attention to handler while walking",
+    "challenge": "Add in inside and outside turns. Puppy should stay by your side"
+  },
+  {
     "title": "Head Lower",
     "description": "Shaping dog to lower head to ground",
     "instruction": [

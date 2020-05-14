@@ -10,6 +10,7 @@ import games from "./data/games.json";
 import Appbar from "./components/Appbar";
 import GameCard from "./components/GameCard";
 import Input from "./components/Input";
+import Footer from "./components/Footer";
 // import Radio from "./components/Radio";
 
 //images
@@ -73,6 +74,9 @@ function App() {
         </Grid>
         <Grid item>
           <Input gameClick={gameClick} />
+        </Grid>
+        <Grid item xs={12}>
+          <Footer />
         </Grid>
         {/* to be implemented later
         <Grid item>

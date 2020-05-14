@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd2b0cd715d97161825c19ce132e8226",
+    "revision": "ba09155d6de7aef8ff9c2f1eacf18f36",
     "url": "/puppy-games/index.html"
   },
   {
-    "revision": "188135ed9185c959e040",
+    "revision": "888f1ae8ba0406a13863",
     "url": "/puppy-games/static/css/main.5806c881.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/puppy-games/static/js/2.711937c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "188135ed9185c959e040",
-    "url": "/puppy-games/static/js/main.b0ed2f22.chunk.js"
+    "revision": "888f1ae8ba0406a13863",
+    "url": "/puppy-games/static/js/main.3df19fa8.chunk.js"
   },
   {
     "revision": "0fd721541a4a3c0fa582",

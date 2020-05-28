@@ -407,5 +407,54 @@
     ],
     "goal": "For the trainer; learn how to shape behaviours",
     "challenge": ""
+  },
+  {
+    "title": "Read a Book",
+    "description": "Puppy reading time",
+    "instruction": [
+      "Read a book to your puppy",
+      "Be extra creative and change sounds for each character"
+    ],
+    "goal": "Have puppy relax to your voice",
+    "challenge": "Read a book while doing puppy yoga (have puppy on their back)"
+  },
+  {
+    "title": "Fake shower",
+    "description": "New environment for puppy",
+    "instruction": [
+      "Bring puppy to bathtub or shower stall",
+      "Move them around and treat here and there",
+      "Make shower time a good experience (should help for future showers)"
+    ],
+    "goal": "New surface for the puppy. Especially if it's slippery",
+    "challenge": "Make the tub slightly wet"
+  },
+  {
+    "title": "Puddle walk",
+    "description": "Have puppy walk over puddles",
+    "instruction": [
+      "This can be done on your patio with a shallow pan of water",
+      "Have puppy walk into the water",
+      "Best reaction is no reaction",
+      "Treat when they walk over or onto the puddle",
+      "Apparently some dogs have trouble walking over puddles, especially during summer"
+    ],
+    "goal": "Desensitize puppy to puddles",
+    "challenge": ""
+  },
+  {
+    "title": "Reprogram Cues (Homework)",
+    "description": "Learn how to reprogram behaviours from old cues",
+    "instruction": [
+      "Remember the pattern -- new cue => old cue => treat",
+      "Puppy should know the Bed command on cue",
+      "We will associate a door bell sound to the bed command",
+      "Warm up with a normal bed command, treat puppy when they do it",
+      "Play door bell sound then say bed, treat puppy when they do it",
+      "Repeat",
+      "You will know the puppy is getting it when they go towards the bed after hearing the door bell"
+    ],
+    "goal": "Puppy hears doorbell and will go to bed. Puppy knows how to change cues, I think this is good if PADS changes commands",
+    "challenge": ""
   }
 ]

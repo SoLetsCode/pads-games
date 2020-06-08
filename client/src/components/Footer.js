@@ -17,8 +17,8 @@ export default function Footer() {
   return (
     <div>
       <Typography className={classes.root} variant="subtitle2">
-        Disclaimer: Not all games are endorsed by PADS. Please use with
-        discretion
+        Disclaimer: This is my hobby project that is not endorsed by PADS.
+        Please use with discretion
       </Typography>
     </div>
   );

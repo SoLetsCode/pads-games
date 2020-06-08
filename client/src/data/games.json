@@ -456,5 +456,18 @@
     ],
     "goal": "Puppy hears doorbell and will go to bed. Puppy knows how to change cues, I think this is good if PADS changes commands",
     "challenge": ""
+  },
+  {
+    "title": "Mark and Move (Homework)",
+    "description": "Build engagement with puppy - this builds on the name game. Reward when they look at handler",
+    "instruction": [
+      "(Optional use command Focus or Name) - When puppy looks - Mark - MOVE - Reward",
+      "Repeat",
+      "If puppy doesn't know command, just reward them when they look at your eyes",
+      "Be mindful to have a neutral stance and ensure the puppy isn't staring at treat pouch rather than your eyes",
+      "Remember to set up a successful environment"
+    ],
+    "goal": "Add more engagement for puppy, good for puppies who are less food motivated.",
+    "challenge": ""
   }
 ]

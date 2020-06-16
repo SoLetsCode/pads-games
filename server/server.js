@@ -1,7 +1,11 @@
+//hide passwords and database ifno
+require("dotenv").config();
+
 const express = require("express");
 const app = express();
 
 const path = require("path");
+const PORT = 5000;
 
 //helpers
 const randomImage = require("./helper/random-image");
@@ -10,11 +14,12 @@ const randomImage = require("./helper/random-image");
 app.use(express.json()); // this is so we can access req.body
 
 //routes
-const sample = require("./routes/api/sample.js");
+const database = require("./routes/api/database.js");
 
 //URLs to access each API
-app.use("/api/sample", sample);
+app.use("/api/db", database);
 
+//reminder to modulize this
 app.get("/api/image", (req, res) => {
   let imagePath = randomImage();
   res.sendFile(`${__dirname}/assets/photos/${imagePath}`);
@@ -23,6 +28,6 @@ app.get("/api/image", (req, res) => {
   // );
 });
 
-app.listen(5000, () => {
-  console.log("listening on port 5000");
+app.listen(PORT, () => {
+  console.log(`Listening on ${PORT}`);
 });

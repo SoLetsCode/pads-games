@@ -469,5 +469,18 @@
     ],
     "goal": "Add more engagement for puppy, good for puppies who are less food motivated.",
     "challenge": ""
+  },
+  {
+    "title": "Food attraction (Homework)",
+    "description": "Teach puppy to take treats gently and practice self control. This game can also help gauge puppy's excitment level. Hard bite = very excited",
+    "instruction": [
+      "Hold treat with thumb and index finger",
+      "Bring towards puppy",
+      "If puppy moves toward treat, move hand away.",
+      "If puppy does not move go closer",
+      "When hand is close enough you can mark by saying good and feed puppy"
+    ],
+    "goal": "Teach puppy self control and take treats gently",
+    "challenge": "Move treat quickly to puppy, they should not lunge for treat. Don't use marker. The puppy will have to excercise extra self control for the last inch of kibble delivery."
   }
 ]
